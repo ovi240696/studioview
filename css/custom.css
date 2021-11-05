@@ -160,6 +160,9 @@ body .dark-section {
     top: 15em;
 }
 
+.popup-wrap.show .popup-inside {
+    top: 34%;
+}
 @media (max-width: 991px) {
     .header-wrap .logo img {
         height: 84px;
