@@ -12,6 +12,7 @@
 .contact-form input {
     margin-right: 33px;
     margin-bottom: 0px;
+    border-radius: 0px;
 }
 .contact-form button {
     margin-top: 0px;
@@ -199,22 +200,46 @@ body .dark-section {
     background: #ededed;
     padding: 28px;
 }
+
 .donation-sub-section .contact-list .contact-icon {
-    margin-bottom: 20px;
-}
-.donation-sub-section .contact-list .contact-icon svg {
     height: 50px;
     width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
 }
-.donation-sub-section .contact-list .contact-icon svg path {
-    fill: #dca343;
-}
+
 .loader-container > div {
     background: -webkit-linear-gradient(
         45deg,
         #02f3f0 30%,
         #dca343 50%
     ) !important;
+}
+
+#donation-section-started .donation-btn .button {
+    border-radius: 0px !important;
+    background-color: red;
+    color: white;
+    box-shadow: 1px 5px 12px white;
+}
+#donation-section-started .donation-btn .button:hover {
+    opacity: 0.9;
+}
+
+#donation-section-started .donation-btn .learn-more-btn {
+    border-radius: 0px !important;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+#donation-section-started .donation-btn .learn-more-btn:hover {
+    opacity: 0.9;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 5px 12px white;
+}
+.main-slider .tt-slide .slide-bg img {
+    max-width: 100% !important;
 }
 @media (max-width: 991px) {
     .header-wrap .logo img {
