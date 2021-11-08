@@ -163,6 +163,59 @@ body .dark-section {
 .popup-wrap.show .popup-inside {
     top: 34%;
 }
+
+.main-slider .tt-slide .tt-slide_header {
+    margin-bottom: 20px;
+}
+.main-slider .tt-slide .tt-slide_header span {
+    display: grid;
+}
+.main-slider .tt-slide.animate .tt-slide_description {
+    margin: auto;
+    width: 39em;
+}
+.donation-section .donation-btn {
+    justify-content: center;
+}
+
+.donation-sub-section {
+    background-color: #d9d9d9;
+}
+.donation-sub-section .contact-list li {
+    width: auto;
+}
+.donation-sub-section .contact-list .contact-list_text h5 {
+    color: black;
+}
+.donation-sub-section .contact-list .contact-list_text p {
+    color: black;
+    font-size: 15px;
+}
+.donation-sub-section .contact-list .working-hours-timings {
+    color: black;
+}
+.donation-sub-section .contact-list_text {
+    text-align: center;
+    background: #ededed;
+    padding: 28px;
+}
+.donation-sub-section .contact-list .contact-icon {
+    margin-bottom: 20px;
+}
+.donation-sub-section .contact-list .contact-icon svg {
+    height: 50px;
+    width: 50px;
+}
+.donation-sub-section .contact-list .contact-icon svg path {
+    fill: #dca343;
+}
+.loader-container > div {
+    background: -webkit-linear-gradient(
+        45deg,
+        #02f3f0 30%,
+        #dca343 50%
+    ) !important;
+}
 @media (max-width: 991px) {
     .header-wrap .logo img {
         height: 84px;
