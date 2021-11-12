@@ -24,10 +24,10 @@
     background-color: white !important;
 }
 .menu-gradient {
-    background: #02f3f0 !important ;
+    background: none !important ;
 }
 .main-nav .menu li.active > a {
-    color: #dca343 !important;
+    color: black !important;
 }
 .header-wrap header {
     padding: 0px;
