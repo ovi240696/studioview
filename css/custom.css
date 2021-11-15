@@ -294,6 +294,9 @@ body .dark-section {
     .contact-form input {
         margin-bottom: 23px;
     }
+    .main-slider .tt-slide.animate .tt-slide_description {
+        width: auto !important;
+    }
 }
 .book-btn {
     padding: 20px 28px;
