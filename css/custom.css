@@ -301,3 +301,15 @@ body .dark-section {
 .book-btn {
     padding: 20px 28px;
 }
+
+iframe {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.video-main {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
