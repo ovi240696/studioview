@@ -239,7 +239,7 @@ body .dark-section {
     box-shadow: 1px 5px 12px white;
 }
 .main-slider .tt-slide .slide-bg img {
-    max-width: 100% !important;
+    max-width: 120% !important;
 }
 @media (max-width: 991px) {
     .header-wrap .logo img {
@@ -300,6 +300,7 @@ body .dark-section {
 }
 .book-btn {
     padding: 20px 28px;
+    width: inherit;
 }
 
 iframe {
